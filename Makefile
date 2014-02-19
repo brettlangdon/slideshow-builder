@@ -11,4 +11,4 @@ clean:
 run:
 	@cd ./build && python -m SimpleHTTPServer
 
-.PHONY: build
+.PHONY: build clean run
